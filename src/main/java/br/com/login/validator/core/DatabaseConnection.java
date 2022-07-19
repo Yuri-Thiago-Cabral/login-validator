@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseConnection {
-
     public Connection getConnection() {
         try {
             Class.forName(MysqlConstants.DRIVER_NAME);
